@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() 
+{
+    int n1,n2;
+    int sum=0,dif=0,mul=0,div=0;
+    printf("enter the two numbers:");
+    scanf("%d%d",&n1,&n2);
+    sum=n1+n2;
+    dif=n1-n2;
+    mul=n1*n2;
+    div=n1/n2;
+    printf("sum=%d,dif=%d,mul=%d,div=%d",sum,dif,mul,div);
+}
