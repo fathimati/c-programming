@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    char name[50];
+    int adm_no;
+    char class[50];
+    printf("enter the name:\n");
+    scanf("%s",&name);
+    printf("enter adm_no:\n");
+    scanf("%d",&adm_no);
+    printf("enter class:\n");
+    scanf("%s",&class);
+    printf("\nstudent information:\n");
+    printf("name: %s\n",name);
+    printf("adm_no: %d\n",adm_no);
+    printf("class: %s\n",class);
+    return 0;
+}
