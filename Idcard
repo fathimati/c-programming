@@ -1,17 +1,20 @@
 #include<stdio.h>
-int main() {
+struct student {
     char name[50];
     int adm_no;
     char class[50];
+};
+int main() {
+    struct student s;
     printf("enter the name:\n");
-    scanf("%s",&name);
+    scanf("%s",s.name);
     printf("enter adm_no:\n");
-    scanf("%d",&adm_no);
+    scanf("%d",&s.adm_no);
     printf("enter class:\n");
-    scanf("%s",&class);
+    scanf("%s",s.class);
     printf("\nstudent information:\n");
-    printf("name: %s\n",name);
-    printf("adm_no: %d\n",adm_no);
-    printf("class: %s\n",class);
+    printf("name: %s\n",s.name);
+    printf("adm_no: %d\n",s.adm_no);
+    printf("class: %s\n",s.class);
     return 0;
 }
